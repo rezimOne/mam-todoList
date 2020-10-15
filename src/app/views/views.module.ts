@@ -7,7 +7,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 
 
 @NgModule({
-  declarations: [TodoComponent, StudentsComponent, PageNotFoundComponent]
+  declarations: [TodoComponent, StudentsComponent, PageNotFoundComponent],
   exports: [TodoComponent, StudentsComponent, PageNotFoundComponent],
   imports: [CommonModule]
 })
