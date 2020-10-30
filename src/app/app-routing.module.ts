@@ -1,3 +1,4 @@
+import { NotesComponent } from './views/notes/notes.component';
 import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
 import { StudentsComponent } from './views/students/students.component';
 import { TodoComponent } from './views/todo/todo.component';
@@ -7,6 +8,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   { path: 'todo', component: TodoComponent },
   { path: 'students', component: StudentsComponent },
+  { path: 'notes', component: NotesComponent },
   { path: '', redirectTo: '/todo', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];
